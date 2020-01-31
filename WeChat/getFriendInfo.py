@@ -104,7 +104,7 @@ class GetFriends(object):
             .add_schema(maptype="china")
             .add(
                 "人数",
-                city
+
             )
         )
         geo.render("city.html")
